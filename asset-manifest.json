@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1c781f3.css",
-    "main.js": "/static/js/main.ce1bd864.js",
-    "static/media/Nunito.ttf": "/static/media/Nunito.ba12192be420666fc588.ttf",
-    "static/media/Frijole.ttf": "/static/media/Frijole.e82c9f1c36d9f2705a15.ttf",
-    "static/media/PressStart2P.ttf": "/static/media/PressStart2P.21503c6a5385ab41dde9.ttf",
-    "index.html": "/index.html",
-    "main.a1c781f3.css.map": "/static/css/main.a1c781f3.css.map",
-    "main.ce1bd864.js.map": "/static/js/main.ce1bd864.js.map"
+    "main.css": "/store.parrotcloud/static/css/main.49c2efe1.css",
+    "main.js": "/store.parrotcloud/static/js/main.5789b4b2.js",
+    "static/media/Nunito.ttf": "/store.parrotcloud/static/media/Nunito.ba12192be420666fc588.ttf",
+    "static/media/Frijole.ttf": "/store.parrotcloud/static/media/Frijole.e82c9f1c36d9f2705a15.ttf",
+    "static/media/PressStart2P.ttf": "/store.parrotcloud/static/media/PressStart2P.21503c6a5385ab41dde9.ttf",
+    "index.html": "/store.parrotcloud/index.html",
+    "main.49c2efe1.css.map": "/store.parrotcloud/static/css/main.49c2efe1.css.map",
+    "main.5789b4b2.js.map": "/store.parrotcloud/static/js/main.5789b4b2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1c781f3.css",
-    "static/js/main.ce1bd864.js"
+    "static/css/main.49c2efe1.css",
+    "static/js/main.5789b4b2.js"
   ]
 }
