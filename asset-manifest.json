@@ -1,16 +1,23 @@
 {
   "files": {
     "main.css": "/store.parrotcloud/static/css/main.749805ad.css",
-    "main.js": "/store.parrotcloud/static/js/main.2631ce71.js",
+    "main.js": "/store.parrotcloud/static/js/main.84fd297f.js",
+    "static/media/formula1.png": "/store.parrotcloud/static/media/formula1.3244b762f3c866a6bf3c.png",
+    "static/media/f12.jpg": "/store.parrotcloud/static/media/f12.31cf27e3160130f01d3d.jpg",
+    "static/media/f14.jpg": "/store.parrotcloud/static/media/f14.7895e0671fe87d29f935.jpg",
+    "static/media/f13.jpg": "/store.parrotcloud/static/media/f13.7adcdb49c9c0141f1dc9.jpg",
+    "static/media/f11.jpg": "/store.parrotcloud/static/media/f11.f5417d92fef641ac80c8.jpg",
+    "static/media/logo.png": "/store.parrotcloud/static/media/logo.19e0f545739da557ae5c.png",
     "static/media/Nunito.ttf": "/store.parrotcloud/static/media/Nunito.ba12192be420666fc588.ttf",
     "static/media/Frijole.ttf": "/store.parrotcloud/static/media/Frijole.e82c9f1c36d9f2705a15.ttf",
+    "static/media/hollow.jpg": "/store.parrotcloud/static/media/hollow.b4441a7bb7844d3b9fdf.jpg",
     "static/media/PressStart2P.ttf": "/store.parrotcloud/static/media/PressStart2P.21503c6a5385ab41dde9.ttf",
     "index.html": "/store.parrotcloud/index.html",
     "main.749805ad.css.map": "/store.parrotcloud/static/css/main.749805ad.css.map",
-    "main.2631ce71.js.map": "/store.parrotcloud/static/js/main.2631ce71.js.map"
+    "main.84fd297f.js.map": "/store.parrotcloud/static/js/main.84fd297f.js.map"
   },
   "entrypoints": [
     "static/css/main.749805ad.css",
-    "static/js/main.2631ce71.js"
+    "static/js/main.84fd297f.js"
   ]
 }
