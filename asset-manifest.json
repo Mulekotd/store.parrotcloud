@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/store.parrotcloud/static/css/main.2e5ed2a3.css",
-    "main.js": "/store.parrotcloud/static/js/main.71d39fc4.js",
+    "main.js": "/store.parrotcloud/static/js/main.78831749.js",
     "static/media/formula1.png": "/store.parrotcloud/static/media/formula1.3244b762f3c866a6bf3c.png",
     "static/media/f12.jpg": "/store.parrotcloud/static/media/f12.31cf27e3160130f01d3d.jpg",
     "static/media/f14.jpg": "/store.parrotcloud/static/media/f14.7895e0671fe87d29f935.jpg",
@@ -18,10 +18,10 @@
     "static/media/heart_icon.png": "/store.parrotcloud/static/media/heart_icon.77d0ee28f4de7a537e67.png",
     "index.html": "/store.parrotcloud/index.html",
     "main.2e5ed2a3.css.map": "/store.parrotcloud/static/css/main.2e5ed2a3.css.map",
-    "main.71d39fc4.js.map": "/store.parrotcloud/static/js/main.71d39fc4.js.map"
+    "main.78831749.js.map": "/store.parrotcloud/static/js/main.78831749.js.map"
   },
   "entrypoints": [
     "static/css/main.2e5ed2a3.css",
-    "static/js/main.71d39fc4.js"
+    "static/js/main.78831749.js"
   ]
 }
