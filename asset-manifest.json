@@ -1,7 +1,22 @@
 {
   "files": {
-    "main.css": "/store.parrotcloud/static/css/main.317632aa.css",
-    "main.js": "/store.parrotcloud/static/js/main.9b956892.js",
+    "main.js": "/store.parrotcloud/static/js/main.09fe8598.js",
+    "static/css/329.5de598c9.chunk.css": "/store.parrotcloud/static/css/329.5de598c9.chunk.css",
+    "static/js/329.8c1c7677.chunk.js": "/store.parrotcloud/static/js/329.8c1c7677.chunk.js",
+    "static/css/943.f9c2f654.chunk.css": "/store.parrotcloud/static/css/943.f9c2f654.chunk.css",
+    "static/js/943.27374329.chunk.js": "/store.parrotcloud/static/js/943.27374329.chunk.js",
+    "static/css/537.cc0b9c01.chunk.css": "/store.parrotcloud/static/css/537.cc0b9c01.chunk.css",
+    "static/js/537.32114eba.chunk.js": "/store.parrotcloud/static/js/537.32114eba.chunk.js",
+    "static/js/254.f57e15b7.chunk.js": "/store.parrotcloud/static/js/254.f57e15b7.chunk.js",
+    "static/css/780.d61ad8ff.chunk.css": "/store.parrotcloud/static/css/780.d61ad8ff.chunk.css",
+    "static/js/780.2c57e0a9.chunk.js": "/store.parrotcloud/static/js/780.2c57e0a9.chunk.js",
+    "static/css/925.f6a684cc.chunk.css": "/store.parrotcloud/static/css/925.f6a684cc.chunk.css",
+    "static/js/925.7b7c5e74.chunk.js": "/store.parrotcloud/static/js/925.7b7c5e74.chunk.js",
+    "static/css/887.c0654555.chunk.css": "/store.parrotcloud/static/css/887.c0654555.chunk.css",
+    "static/js/887.37ce20c7.chunk.js": "/store.parrotcloud/static/js/887.37ce20c7.chunk.js",
+    "static/css/356.e763d9b6.chunk.css": "/store.parrotcloud/static/css/356.e763d9b6.chunk.css",
+    "static/js/356.1a4d006e.chunk.js": "/store.parrotcloud/static/js/356.1a4d006e.chunk.js",
+    "static/js/190.1db4a87e.chunk.js": "/store.parrotcloud/static/js/190.1db4a87e.chunk.js",
     "static/media/formula1.png": "/store.parrotcloud/static/media/formula1.3244b762f3c866a6bf3c.png",
     "static/media/f12.jpg": "/store.parrotcloud/static/media/f12.31cf27e3160130f01d3d.jpg",
     "static/media/f14.jpg": "/store.parrotcloud/static/media/f14.7895e0671fe87d29f935.jpg",
@@ -16,11 +31,25 @@
     "static/media/Profile.png": "/store.parrotcloud/static/media/Profile.9fa80322540efc02daca.png",
     "static/media/heart_icon.png": "/store.parrotcloud/static/media/heart_icon.77d0ee28f4de7a537e67.png",
     "index.html": "/store.parrotcloud/index.html",
-    "main.317632aa.css.map": "/store.parrotcloud/static/css/main.317632aa.css.map",
-    "main.9b956892.js.map": "/store.parrotcloud/static/js/main.9b956892.js.map"
+    "main.09fe8598.js.map": "/store.parrotcloud/static/js/main.09fe8598.js.map",
+    "329.5de598c9.chunk.css.map": "/store.parrotcloud/static/css/329.5de598c9.chunk.css.map",
+    "329.8c1c7677.chunk.js.map": "/store.parrotcloud/static/js/329.8c1c7677.chunk.js.map",
+    "943.f9c2f654.chunk.css.map": "/store.parrotcloud/static/css/943.f9c2f654.chunk.css.map",
+    "943.27374329.chunk.js.map": "/store.parrotcloud/static/js/943.27374329.chunk.js.map",
+    "537.cc0b9c01.chunk.css.map": "/store.parrotcloud/static/css/537.cc0b9c01.chunk.css.map",
+    "537.32114eba.chunk.js.map": "/store.parrotcloud/static/js/537.32114eba.chunk.js.map",
+    "254.f57e15b7.chunk.js.map": "/store.parrotcloud/static/js/254.f57e15b7.chunk.js.map",
+    "780.d61ad8ff.chunk.css.map": "/store.parrotcloud/static/css/780.d61ad8ff.chunk.css.map",
+    "780.2c57e0a9.chunk.js.map": "/store.parrotcloud/static/js/780.2c57e0a9.chunk.js.map",
+    "925.f6a684cc.chunk.css.map": "/store.parrotcloud/static/css/925.f6a684cc.chunk.css.map",
+    "925.7b7c5e74.chunk.js.map": "/store.parrotcloud/static/js/925.7b7c5e74.chunk.js.map",
+    "887.c0654555.chunk.css.map": "/store.parrotcloud/static/css/887.c0654555.chunk.css.map",
+    "887.37ce20c7.chunk.js.map": "/store.parrotcloud/static/js/887.37ce20c7.chunk.js.map",
+    "356.e763d9b6.chunk.css.map": "/store.parrotcloud/static/css/356.e763d9b6.chunk.css.map",
+    "356.1a4d006e.chunk.js.map": "/store.parrotcloud/static/js/356.1a4d006e.chunk.js.map",
+    "190.1db4a87e.chunk.js.map": "/store.parrotcloud/static/js/190.1db4a87e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.317632aa.css",
-    "static/js/main.9b956892.js"
+    "static/js/main.09fe8598.js"
   ]
 }
