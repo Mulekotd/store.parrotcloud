@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkparrotcloud=self.webpackChunkparrotcloud||[]).push([[254],{4254:function(r,n,e){e.r(n);var a=e(184);n.default=function(){return(0,a.jsx)("main",{children:(0,a.jsx)("p",{className:"warning",children:"Profile"})})}}}]);
+//# sourceMappingURL=254.f57e15b7.chunk.js.map
