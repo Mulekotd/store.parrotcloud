@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/store.parrotcloud/static/css/main.2e5ed2a3.css",
-    "main.js": "/store.parrotcloud/static/js/main.78831749.js",
+    "main.css": "/store.parrotcloud/static/css/main.aa2474b8.css",
+    "main.js": "/store.parrotcloud/static/js/main.3e39a344.js",
     "static/media/formula1.png": "/store.parrotcloud/static/media/formula1.3244b762f3c866a6bf3c.png",
     "static/media/f12.jpg": "/store.parrotcloud/static/media/f12.31cf27e3160130f01d3d.jpg",
     "static/media/f14.jpg": "/store.parrotcloud/static/media/f14.7895e0671fe87d29f935.jpg",
@@ -14,14 +14,24 @@
     "static/media/hollow.jpg": "/store.parrotcloud/static/media/hollow.b4441a7bb7844d3b9fdf.jpg",
     "static/media/post_image.jpg": "/store.parrotcloud/static/media/post_image.ab06177266e296a7a04f.jpg",
     "static/media/PressStart2P.ttf": "/store.parrotcloud/static/media/PressStart2P.21503c6a5385ab41dde9.ttf",
+    "static/media/spiderman (5).jpg": "/store.parrotcloud/static/media/spiderman (5).692c378b3bd63d641cc5.jpg",
+    "static/media/spiderman (2).jpg": "/store.parrotcloud/static/media/spiderman (2).98d0d9764b9394bfb38d.jpg",
+    "static/media/spiderman (3).jpg": "/store.parrotcloud/static/media/spiderman (3).7b777ac867c7deffcdfd.jpg",
+    "static/media/days gone (3).jpg": "/store.parrotcloud/static/media/days gone (3).d14e6199a84130009123.jpg",
+    "static/media/days gone (2).jpg": "/store.parrotcloud/static/media/days gone (2).0ef58bd57bdca7280941.jpg",
+    "static/media/spiderman (1).jpg": "/store.parrotcloud/static/media/spiderman (1).2fb279462e4c1471fc8d.jpg",
+    "static/media/spiderman (4).jpg": "/store.parrotcloud/static/media/spiderman (4).4b65271a79d07a03e6c9.jpg",
+    "static/media/days gone (1).jpeg": "/store.parrotcloud/static/media/days gone (1).32bc70a65fba34f0b9ab.jpeg",
     "static/media/Profile.png": "/store.parrotcloud/static/media/Profile.9fa80322540efc02daca.png",
+    "static/media/days gone (4).jpg": "/store.parrotcloud/static/media/days gone (4).197bc2a260644be97fcb.jpg",
+    "static/media/days gone (5).jpg": "/store.parrotcloud/static/media/days gone (5).1843474fccea8cc79846.jpg",
     "static/media/heart_icon.png": "/store.parrotcloud/static/media/heart_icon.77d0ee28f4de7a537e67.png",
     "index.html": "/store.parrotcloud/index.html",
-    "main.2e5ed2a3.css.map": "/store.parrotcloud/static/css/main.2e5ed2a3.css.map",
-    "main.78831749.js.map": "/store.parrotcloud/static/js/main.78831749.js.map"
+    "main.aa2474b8.css.map": "/store.parrotcloud/static/css/main.aa2474b8.css.map",
+    "main.3e39a344.js.map": "/store.parrotcloud/static/js/main.3e39a344.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e5ed2a3.css",
-    "static/js/main.78831749.js"
+    "static/css/main.aa2474b8.css",
+    "static/js/main.3e39a344.js"
   ]
 }
