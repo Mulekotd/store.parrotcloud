@@ -1,0 +1,151 @@
+div.gamedetails {
+    width: 100%;
+    height: 720px;
+    background-color: #232222;
+    border: solid 3px #565353;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 8px 8px 8px 8px;
+}
+
+div.gamedetails nav {
+    width: 67.3%;
+    height: 55%;
+    margin-top: 0.75%;
+    margin-left: 0.5%;
+    overflow: hidden;
+    background-color: #403939;
+    z-index: 2;
+}
+
+div.gamedetails nav img {
+    width: 100%;
+    height: 100%;
+}
+
+div.gameinform {
+    width: 32.5%;
+    height: 55%;
+    margin-top: 0.75%;
+    margin-left: -0.5%;
+    padding-top: 1.5%;
+    padding-left: 0.75%;
+    padding-right: 0.75%;
+    background-color: #403939;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    z-index: 1;
+}
+
+p.gamepagename {
+    height: 5%;
+    width: 100%;
+    margin-bottom: 20%;
+    font-family: 'Nunito';
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+
+p.gamedescription {
+    width: 90%;
+    font-family: 'Nunito';
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: justify;
+    margin-bottom: 1.75%;
+    color: rgb(201, 201, 201);
+}
+
+p.gamedata {
+    width: 90%;
+    margin-top: 1%;
+    font-family: 'Nunito';
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: start;
+    color: white;
+}
+
+p.gamedata::before {
+    content: ">>";
+    color: white;
+    font-family: 'Nunito';
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+p.gamedata {
+    width: 90%;
+    margin-top: 1%;
+    font-family: 'Nunito';
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: start;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+div.gameinform button {
+    margin-top: 20%;
+    width: 25%;
+    height: 15%;
+    background-color: yellow;
+}
+
+div.gamecomments {
+    background-color: #403939;
+    height: 43%;
+    width: 67.3%;
+    margin-left: 0.5%;
+    margin-top: -3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    z-index: 1;
+}
+
+div.gamecomments p {
+    margin-top: 2.5%;
+}
+
+div.buybox {
+    width: 32.5%;
+    height: 43%;
+    background-color: #403939;
+    margin-left: -0.5%;
+    margin-top: -3%;
+    z-index: -0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+div.buybox p {
+    margin-top: 5%;
+}
+
+div.buybox button {
+    cursor: pointer;
+    position: relative;
+    font-family: 'Press Start 2P';
+    font-size: 14px;
+    background-color: #69d300;
+    color: white;
+    height: 10%;
+    width: 25%;
+    padding: 4% 8% 4% 8%;
+    border-radius: 5%;
+    border: none;
+    transition: 400ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

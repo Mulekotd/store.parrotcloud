@@ -1,0 +1,157 @@
+/* New games style */
+
+div.images {
+    height: 70%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div.images button.secondary-button {
+    color: #000000;
+    background-color: #86d33a;
+    background-image: none;
+    width: auto;
+    height: 45px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 6px;
+}
+
+form div.images button.secondary-button:hover {
+    color: #000000;
+    background-image: none;
+}
+
+form div.imageinput input {
+    text-decoration: none; 
+    color: black;
+}
+
+nav.gameinput {
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+nav.gameinput form div.imageinput {
+    width: 75%;
+    min-height: 288px;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    border: dashed 3px #444444;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1680px) {
+    nav.gameinput form div.imageinput {
+        min-height: 252px; 
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    nav.gameinput form div.imageinput {
+        min-height: 217px; 
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    nav.gameinput form div.imageinput {
+        min-height: 191px; 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    nav.gameinput form div.imageinput {
+       min-height: 150px; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav.gameinput form div.imageinput {
+       min-height: 150px; 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav.gameinput form div.imageinput {
+       min-height: 147px; 
+    }
+}
+
+nav.gameinput p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    margin-left: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+nav.gameinput form {
+    width: 100%;
+    min-height: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+nav.gameinput form label  {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Nunito';
+    width: 70%;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 25px ;
+    text-align: justify;
+}
+
+input.textinput {
+    color: #ffffff;
+    background-color:#444444;
+    border: solid 2px #6e6d6d;
+    border-radius: 5px;
+    min-height: 35px;
+    width: 75%;
+}
+
+input.bigtextinput {
+    color: #ffffff;
+    background-color:#444444;
+    border: solid 2px #6e6d6d;
+    border-radius: 5px;
+    min-height: 60px;
+    width: 75%;
+}
+
+nav.gameinput form button {
+    width: 70%;
+    min-height: 50px;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0.5rem 0.5rem 0.5rem #0a0a0a;
+    font-family: 'Press Start 2P';
+    text-transform: capitalize;
+    background-image: linear-gradient(to right, rgb(51, 168, 5), #86d33a);
+    transition: 400ms;
+}
+
+nav.gameinput form button:hover {
+    color: #ffffff;
+    background-image: linear-gradient(to right, #86d33a, #5b5f58);
+}

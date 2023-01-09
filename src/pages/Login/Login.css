@@ -1,0 +1,259 @@
+/* page header*/
+
+header {
+    display: flex;
+    position: absolute;
+    height: 15%;
+    min-height: 75px;
+    max-height: 125px;
+    width: 95%;
+    max-width: 2000px;
+    min-width: 250px; 
+    background-color: #1b1b1b;
+    box-shadow: 0.5rem 0.5rem 0.5rem #0a0a0a;
+    color: #ffffff;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,0%);
+    z-index: 3;
+}
+
+nav.upheader {
+    height: 75%;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.upheader span {
+    display: inline-flex;
+}
+
+a.logo {
+    font-family: 'Frijole';
+    color: #69d300;
+    font-size: 25px;
+    margin-left: 25px;
+    transition: 1000ms;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    nav.upheader span {
+        font-size: 20px;
+    }
+}
+
+a.login {
+    font-family: 'Nunito';
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 1000ms;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    nav.upheader span a {
+        font-size: 15px;
+    }
+}
+
+p.warning {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 55px;
+    font-family: 'Press Start 2P';
+    font-size: larger;
+}
+
+@media only screen and (max-width: 1200px) {
+    p.warning {
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    p.warning {
+        font-size: smaller;
+    }
+}
+
+div.component-login {
+    position: relative;
+    background-color: #444444;
+    height: 500px;
+    width: 650px;
+    margin-top: 15px;
+    background-color: #232222; 
+    border: solid 2px #302e2e ;
+    border-radius: 5px;
+    box-shadow: 0.5rem 0.5rem 0.5rem #0a0a0a;
+    transition: 1000ms;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+@media screen and (max-width: 1750px) {
+    div.component-login {
+        height: 416px; 
+        width: 541px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    div.component-login {
+        height: 333px; 
+        width: 433px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    div.component-login {
+        height: 250px; 
+        width: 325px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    div.component-login {
+        height: 200px; 
+        width: 260px;
+    }
+}
+
+nav.leftlogin {
+    height: 100%;
+    width: 55%;
+}
+
+nav.leftlogin form {
+    height: 100%;
+    width: 100%;
+    padding: 0 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+nav.leftlogin form label {
+    font-family: 'Nunito';
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    transition: 1000ms;
+}
+
+@media only screen and (max-width: 1750px) {
+    nav.leftlogin form label {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    nav.leftlogin form label {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    nav.leftlogin form label {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    nav.leftlogin form label {
+        font-size: 5px;
+    }
+}
+
+nav.leftlogin form input {
+    width: 90%;
+    height: 10%;
+    background-color: #1b1b1b;
+    border: solid 2px #302e2e ;
+    border-radius: 5px;
+    color: white;
+}
+
+div.component-login p {
+    font-family: 'Nunito';
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1300px) {
+    div.component-login p {
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    div.component-login p {
+        font-size: 5px;
+    }
+}
+
+  @media only screen and (max-width: 500px) {
+    div.component-login p {
+        font-size: 4px;
+    }
+}
+
+nav.leftlogin form p a {
+    color: #69d300;
+    text-decoration: none;
+}
+
+nav.leftlogin form button {
+    width: 85%;
+    height: 10%;
+    margin-left: 7.5%;
+    margin-top: 5%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0.5rem 0.5rem 0.5rem #0a0a0a;
+    font-family: 'Press Start 2P';
+    background-image: linear-gradient(to right, rgb(51, 168, 5), #86d33a);
+    transition: 400ms;
+}
+
+nav.leftlogin form button:hover{
+    color: #ffffff;
+    background-image: linear-gradient(to right, #86d33a, #5b5f58);
+}
+
+nav.rigthlogin {
+    height: 100%;
+    width: 45%;
+    background-image: linear-gradient(to top, rgba(51, 168, 5, 0), #302e2e);
+}
+
+nav.rigthlogin p {
+    margin-top: 5%;
+}
+
+.terciary-button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #69d300;
+}
+
+.terciary-button:hover {
+    text-decoration: underline;
+}

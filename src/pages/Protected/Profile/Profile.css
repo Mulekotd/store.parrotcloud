@@ -1,0 +1,93 @@
+/* Profile style */
+
+.middlebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-card {
+    height: 45%;
+    width: 60%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #302e2e;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.profile-card .warning {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: auto;
+    width: auto;
+}
+
+.profile-card .profile-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 64px;
+    margin-bottom: 16px;
+}
+
+.profile-card .description {
+    margin-bottom: 12.5%;
+    height: 20%;
+    width: 80%;
+}
+
+.profile-card .description p {
+    width: auto;
+    margin-bottom: 5%;
+}
+
+.profile-card .description textarea {
+    height: 100%;
+    width: 100%;
+    padding: 6px 8px 6px 8px;
+    font-size: 18px;
+}
+
+.profile-card .profile-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.profile-card .user-informations {
+    height: 20%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-card .user-informations p {
+    margin-bottom: 16px;
+    height: auto;
+    width: auto;
+}
+
+.user-informations div {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.user-informations div .primary-button-warning {
+    margin-top: 5%;
+    padding: 8px 16px 8px 16px;
+    background-color: #ff0000;
+    box-shadow: 0.5rem 0.5rem 0.5rem #0a0a0a;
+    border-radius: 5px;
+    width: 100%;
+    height: 75px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+}
+

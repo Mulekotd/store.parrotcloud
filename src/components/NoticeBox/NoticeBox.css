@@ -1,0 +1,32 @@
+div.notice {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: #232222; 
+    border: solid 2px #302e2e ;
+    border-radius: 5px;
+    box-shadow: 0.5rem 0.5rem 0.5rem #0a0a0a;
+    left: -25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+@media screen and (max-width: 1500px) {
+    div.notice {
+        min-width: 125px;
+        height: 25px;
+    }
+}
+
+div.notice p {
+    font-family: 'Press Start 2P';
+}
+
+@media screen and (max-width: 1100px) {
+    div.notice p {
+        font-size: 10px;
+    }
+}

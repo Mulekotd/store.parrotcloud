@@ -1,0 +1,336 @@
+/* page header*/
+
+header {
+    display: flex;
+    position: absolute;
+    height: 15%;
+    min-height: 75px;
+    max-height: 125px;
+    width: 95%;
+    max-width: 2000px;
+    min-width: 250px; 
+    background-color: #1b1b1b;
+    box-shadow: 0.5rem 0.5rem 0.5rem #0a0a0a;
+    color: #ffffff;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,0%);
+    z-index: 3;
+}
+
+nav.upheader {
+    height: 75%;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.upheader span {
+    display: inline-flex;
+    height: auto;
+    width: auto;
+}
+
+a.logo {
+    font-family: 'Frijole';
+    color: #69d300;
+    font-size: 25px;
+    transition: 1000ms;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    nav.upheader span {
+        font-size: 20px;
+    }
+}
+
+span a.login {
+    font-family: 'Nunito';
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    transition: 1000ms;
+}
+
+@media only screen and (max-width: 1200px) {
+    nav.upheader span a {
+        font-size: 15px;
+    }
+}
+
+section.home {
+    width: 100%;
+    height: 100%;
+}
+
+section.home img {
+    width: 100%;
+    height: 1350px;
+    z-index: -1;
+    position: absolute;
+}
+
+@media screen and (max-width: 1100px) {
+    section.home img {
+        height: 1000px; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    section.home img {
+        height: 750px; 
+    }
+}
+
+div.gradient {
+    width: 100%;
+    height: 1350px;
+    background-image: linear-gradient(to top, #111111, #111111c8);
+    z-index: 0;
+    position: absolute;
+}
+
+@media screen and (max-width: 1100px) {
+    div.gradient {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    div.gradient {
+        height: 750px; 
+    }
+}
+
+section.home section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+section.home section h1 {
+    margin-top: 10%;
+    margin-bottom: 35px;
+    margin-left: 10%;
+    width: 100%;
+    font-size: 80px;
+    font-family: 'Nunito';
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1600px) {
+    section.home section h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    section.home section h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    section.home section h1 {
+        font-size: 20px;
+    }
+}
+  
+@media screen and (max-width: 700px) {
+    section.home section h1 {
+        font-size: 10px;
+    }
+}
+
+section.home section p {
+    width: 70%;
+    font-size: 50px;
+    font-family: 'Nunito';
+    color: #8b949e;
+    margin-left: -25%;
+    transition: 1000ms;
+}
+
+@media screen and (max-width: 1600px) {
+    section.home section p {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    section.home section p {
+        font-size: 30px; 
+    }
+}
+
+@media screen and (max-width: 900px) {
+    section.home section p {
+        font-size: 20px; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    section.home section p {
+        font-size: 10px;
+    }
+}
+
+section.home section div {
+    background-image: linear-gradient(to right, #403939, #232222);
+    border: solid 5px #565353 ;
+    height: 150px;
+    width: 45%;
+    border-radius: 100px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    transition: 1000ms;
+}
+
+section.home section div nav {
+    margin-right: 5%;
+    margin-left: 5%;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+nav.iconp img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 8;
+}
+
+nav.iconp {
+    height: auto;
+    width: 15%;
+    border-radius: 100%;
+    background-color:#1b1b1b;
+    border: solid 5px #565353 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1600px) {
+    section.home section div {
+        height: 100px;   
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    section.home section div {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    section.home section div {
+        height: 65px;   
+    }
+}
+
+@media screen and (max-width: 700px) {
+    section.home section div {
+        height: 50px;
+        border: solid 2px #565353 ;
+    }
+}
+
+section.home section div h3 {
+    text-align: start;
+    font-family: 'Nunito';
+    font-size: 30px;
+    height: auto;
+    width: auto;
+    transition: 1000ms;
+    display: inline;
+    white-space: nowrap;
+    text-overflow: hidden;
+}
+
+@media screen and (max-width: 1600px) {
+    section.home section div h3 {
+        font-size: 25px;   
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    section.home section div h3 {
+        font-size: 20px;  
+    }
+}
+
+@media screen and (max-width: 900px) {
+    section.home section div h3 {
+        font-size: 10px; 
+    }
+}
+
+@media screen and (max-width: 700px) {
+    section.home section div h3 {
+        font-size: 8px;
+    }
+}
+
+section.home section div a {
+    font-family: 'Nunito';
+    font-size: 25px;
+    height: auto;
+    width: auto;
+    color: #8b949e;
+    text-decoration: none;
+    transition: 1000ms;
+    display: inline-flex;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 1600px) {
+    section.home section div a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    section.home section div a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    section.home section div a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    section.home section div a {
+        font-size: 6px;
+    }
+}
+
+section.home section div a:hover{
+    color: #69d300;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.text-sign {
+    display: flex;
+}
