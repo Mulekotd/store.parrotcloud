@@ -12,7 +12,7 @@ const GamePromo = (props) => {
             </nav>
 
             <nav className='promoinfo'>
-                <p>{props.name}</p>
+                <a href={`${props.url}`}>{props.name}</a>
                 <div className='prices'>
                     <s>{props.price}</s><p>{props.newPrice}</p>
                 </div>
