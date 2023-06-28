@@ -4,7 +4,7 @@ import Featured from '../../../components/Featured/Featured';
 import Offers from '../../../components/Offers/Offers';
 
 function Store() {
-
+    
     return (
         <>            
             <main>

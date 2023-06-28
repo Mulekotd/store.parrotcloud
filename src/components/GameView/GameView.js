@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 const GameView = (props) => {
 
-    const onClick = (event) => {
-        event.preventDefault();
+    const onClick = () => {
         return <Link to={props.link}></Link>
     }
 
