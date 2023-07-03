@@ -2,7 +2,7 @@ import axios from "axios";
 
 export async function getUsers() {
   try {
-    const response = await axios.get("https://parrotcloud-api.herokuapp.com/api/users");
+    const response = await axios.get("http://ec2-54-210-110-136.compute-1.amazonaws.com:3000/api/users");
     return Object.values(response.data);
   } catch (error) {
     console.error(error);
@@ -12,7 +12,7 @@ export async function getUsers() {
 
 export async function getGames() {
   try {
-    const response = await axios.get("https://parrotcloud-api.herokuapp.com/api/games");
+    const response = await axios.get("http://ec2-54-210-110-136.compute-1.amazonaws.com:3000/api/games");
     return Object.values(response.data);
   } catch (error) {
     console.error(error);
@@ -22,7 +22,7 @@ export async function getGames() {
 
 export async function getPosts() {
   try {
-    const response = await axios.get("https://parrotcloud-api.herokuapp.com/api/community-posts");
+    const response = await axios.get("http://ec2-54-210-110-136.compute-1.amazonaws.com:3000/api/community-posts");
     return Object.values(response.data);
   } catch (error) {
     console.error(error);
